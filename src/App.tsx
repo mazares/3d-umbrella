@@ -2,7 +2,6 @@ import "./App.css";
 import { Canvas, useFrame } from "@react-three/fiber";
 import { OrbitControls, Stage } from "@react-three/drei";
 import { MeshPhysicalMaterial } from "three";
-import { Component, useRef } from "react";
 
 function App() {
   type THREE = {
